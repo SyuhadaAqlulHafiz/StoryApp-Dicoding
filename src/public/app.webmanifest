@@ -1,0 +1,167 @@
+{
+  "id": "/#/",
+  "start_url": "/#/",
+  "scope": "/",
+  "name": "Syuhada Aqlul Hafiz",
+  "short_name": "Syuhada",
+  "description": "Aplikasi berbagi yang memungkinkan pengguna untuk membagikan pengalaman sehari-hari secara langsung. Dengan aplikasi ini, interaksi antar warga menjadi lebih hangat dan bermakna, serta dapat menjadi jembatan inspirasi dan informasi bagi sesama.",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#547792",
+  "icons": [
+    {
+      "src": "images/icons/book.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icons/maskable_icon_x48.png",
+      "type": "image/png",
+      "sizes": "48x48",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/icons/maskable_icon_x72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/icons/maskable_icon_x96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/icons/maskable_icon_x128.png",
+      "type": "image/png",
+      "sizes": "128x128",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/icons/maskable_icon_x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/icons/maskable_icon_x384.png",
+      "type": "image/png",
+      "sizes": "384x384",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/icons/maskable_icon_x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+
+  "screenshots": [
+    {
+      "src": "images/ss/001.png",
+      "sizes": "1920x1043",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/ss/002.png",
+      "sizes": "1920x1043",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/ss/003.png",
+      "sizes": "1920x1043",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/ss/004.png",
+      "sizes": "1080x2280",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "images/ss/005.png",
+      "sizes": "1080x2280",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "images/ss/006.png",
+      "sizes": "1080x2280",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Masuk Akun",
+      "short_name": "Masuk",
+      "description": "Masuk Akun.",
+      "url": "/?source=pwa#/login",
+      "icons": [
+        {
+          "src": "images/shortcut/login.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+    },
+    {
+      "name": "Daftar Akun",
+      "short_name": "Daftar",
+      "description": "Daftar akun.",
+      "url": "/?source=pwa#/register",
+      "icons": [
+        {
+          "src": "images/shortcut/regist.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+    },
+    {
+      "name": "Halaman Utama",
+      "short_name": "Halaman Utama",
+      "description": "Lihat daftar catatan semua pengguna",
+      "url": "/?source=pwa#/home",
+      "icons": [
+        {
+          "src": "images/shortcut/bookmark-x512.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+    },
+    {
+      "name": "Catatan Baru",
+      "short_name": "Baru",
+      "description": "Membuat Catatan baru.",
+      "url": "/?source=pwa#/add",
+      "icons": [
+        {
+          "src": "images/shortcut/add-x512.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+    },
+    {
+      "name": "Catatan Tersimpan",
+      "short_name": "Tersimpan",
+      "description": "Lihat daftar laporan",
+      "url": "/?source=pwa#/bookmark",
+      "icons": [
+        {
+          "src": "images/shortcut/bookmark-x512.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+    }
+  ]
+}
