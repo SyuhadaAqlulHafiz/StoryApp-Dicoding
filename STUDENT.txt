@@ -1,4 +1,4 @@
 ACCESS_TOKEN_KEY : <token>
 BASE_URL : <https://story-api.dicoding.dev/v1>
 MAP_SERVICES_API_KEY : <x5un63dC5MBkB55HUz6F>
-URL_DEPLOYMENT_NETLIFY: https://glistening-zabaione-31363a.netlify.app/
+URL_DEPLOYMENT_NETLIFY: https://zingy-narwhal-18c752.netlify.app/

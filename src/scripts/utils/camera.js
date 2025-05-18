@@ -121,14 +121,6 @@ export default class Camera {
   
     this.#videoElement.srcObject = this.#currentStream;
   
-    await new Promise((resolve) => {
-      this.#videoElement.onloadedmetadata = () => {
-        this.#width = this.#videoElement.videoWidth;
-        this.#height = this.#videoElement.videoHeight;
-        resolve();
-      };
-  });
-  
     this.#videoElement.play();
     this.#clearCanvas();
   }
